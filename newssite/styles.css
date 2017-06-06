@@ -1,0 +1,519 @@
+body, html, head h1{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+}
+/*********************NAVBAR**********************/
+.nav{
+	background: red; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left, #8e2b88 , #ff0052); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, #8e2b88, #ff0052); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, #8e2b88, #ff0052); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, #8e2b88 , #ff0052); /* Standard syntax */
+	height: auto;
+	margin: 0 auto;
+}
+
+.navicons{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.logo{
+	width: 100px;
+	padding-top:25px;
+	padding-bottom:15px;
+	display: inline-block;
+}
+
+
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	margin: 0 auto;
+	line-height: 0;
+	display: inline-block;
+	vertical-align:top;
+	margin-top: 30px;
+}
+
+.menu ul{
+	list-style: none;
+	padding: 0;
+}
+
+.menu a{
+	color: white;
+}
+
+.menu a:hover{
+	color: black;
+}
+
+.menu li {
+	display: inline-block;
+	padding: 0px 20px;
+	text-align: center;
+	font-size:14pt;
+	font-family: futuraPTHeavy, sans-serif;
+	color: white;
+}
+
+.menu li:hover {
+	color: black;
+}
+
+.icon{
+	width: 15px;
+	padding-top:5px;
+	padding-bottom:15px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 30px 10px;
+}
+
+.icon img{
+	width: 100%;
+}
+
+.icon img:hover{
+	-webkit-filter: invert(100%);
+}
+
+.subscribe{
+	width: 100px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 30px 0px;
+	border: 2px solid white;
+	padding: 0;
+}
+
+.subscribe img{
+	margin-top: 4px;
+	width: 15px;
+}
+
+.subscribe p{
+	margin: 0 auto;
+	margin-top: 1px; 
+	display: inline-block;
+	padding: 0;
+	text-align: center;
+	font-size:12pt;
+	font-family: futuraPTHeavy, sans-serif;
+	color: white;
+	vertical-align: top;
+}
+
+.subscribe p:hover {
+	color: black;
+}
+/*********************NEWS**********************/
+.news-section{
+}
+
+.news-item1{
+	width:75%;
+	display: inline-block;
+}
+
+.news-item2{
+	width:25%;
+	display: inline-block;
+}
+
+.news-item3{
+	width:25%;
+	display: inline-block;
+}
+
+.news-item4{
+	width:50%;
+	display: inline-block;
+}
+
+.news-item5{
+	width:25%;
+	display: inline-block;
+}
+
+.news-item6{
+	width:50%;
+	display: inline-block;
+}
+
+.news-item7{
+	width:25%;
+	display: inline-block;
+}
+
+.news-item8{
+	width:25%;
+	display: inline-block;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8{
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+	border: 2px solid white;
+	z-index: 0;
+}
+
+.img1{
+	background: url("https://cdn0.vox-cdn.com/uploads/chorus_image/image/54836349/NoahPaul.0.jpeg") no-repeat center center; /* no repeat forces the img to fill the thingy */
+}
+
+.img2{
+	background: url("http://img.cinemablend.com/quill/e/4/9/8/7/7/e4987751f9b900b2988cefcc196417bd6fab8468.jpg") no-repeat center center; /* no repeat forces the img to fill the thingy */
+}
+
+.img3{
+	background: url("http://www.shockmansion.com/wp-content/myimages/2017/05/Far-Cry-5-705x397.jpg") no-repeat center center; /* no repeat forces the img to fill the thingy */
+}
+
+.img4{
+	background: url("https://cdn0.vox-cdn.com/uploads/chorus_image/image/54885749/MiddleearthShadowofWar_Balrog_1495093018.0.jpg") no-repeat center center; /* no repeat forces the img to fill the thingy */
+}
+
+.img5{
+	background: url("https://media.playstation.com/is/image/SCEA/middle-earth-shadow-of-war-screen-03-ps4-us-03feb17?$MediaCarousel_LargeImage$") no-repeat center center; /* no repeat forces the img to fill the thingy */
+}
+
+.img6{
+	background: url("https://cdn0.vox-cdn.com/uploads/chorus_image/image/54866063/d2_story_env_01.0.jpg") no-repeat center center; /* no repeat forces the img to fill the thingy */
+}
+
+.img7{
+	background: url("https://data4.origin.com/content/dam/originx/web/app/games/dragon-age/dragon-age-inquisition/screenshots/dragon-age-inquisition-jaws-of-hakkon/1005299_screenhi_930x524_glowing_bows.jpg") no-repeat center center; /* no repeat forces the img to fill the thingy */
+}
+
+.img8{
+	background: url("http://pixel.nymag.com/imgs/daily/vulture/2015/06/23/23-tom-holland-2.w529.h352.jpg") no-repeat center center; /* no repeat forces the img to fill the thingy */
+}
+
+
+.pic-tag{
+	position: absolute;
+	color: white;
+	bottom: 140px; /* Zero pixels from the bottom */
+	left:10px;
+	font-size: 14px;
+	padding: 0px 10px;
+	font-family: futuraPTMedium, sans-serif;
+	background-color: #ff0052;
+	z-index: 10;
+}
+
+.pic-tag:hover{
+	background-color: #612a46;
+}
+
+.pic-tag2{
+	position: absolute;
+	color: white;
+	bottom: 95px; /* Zero pixels from the bottom */
+	left:20px;
+	font-size: 14px;
+	padding: 0px 10px;
+	font-family: futuraPTMedium, sans-serif;
+	background-color: #612a46;
+	z-index: 10;
+}
+
+.pic-tag2:hover{
+	background-color: #ff0052;
+}
+
+.pic-title{
+	position: absolute;
+	color: white;
+	top: 150px; /* Zero pixels from the bottom */
+	font-size: 30px;
+	padding: 10px;
+	font-family: futuraPTHeavy, sans-serif;
+	z-index: 10;
+}
+
+.pic-title2:hover{
+	color: #ff0052;
+}
+
+.pic-title2{
+	position: absolute;
+	color: black;
+	top: 200px; /* Zero pixels from the bottom */
+	font-size: 20px;
+	padding: 10px;
+	font-family: futuraPTMedium, sans-serif;
+	z-index: 10;
+}
+
+.pic-title:hover{
+	color: #612a46;
+}
+
+.pic-author{
+	position: absolute;
+	color: white;
+	bottom: 20px; /* Zero pixels from the bottom */
+	font-size: 20px;
+	padding: 10px;
+	font-family: futuraPTMediumOblique, sans-serif;
+	z-index: 10;
+}
+
+.pic-author2:hover{
+	color: #ff0052;
+}
+
+.pic-author2{
+	position: absolute;
+	color: black;
+	bottom: 10px; /* Zero pixels from the bottom */
+	padding: 10px;
+	font-size: 12px;
+	font-family: futuraPTMediumOblique, sans-serif;
+	z-index: 10;
+}
+
+.pic-author:hover{
+	color: #612a46;
+}
+
+.pic-whitespace{
+	position: absolute;
+	height: 100px;
+	bottom: 0;
+	background-color: white;
+	width: 100%;
+	z-index: 1;
+}
+
+.tint {
+  	background: red; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left, #8e2b88 , #ff0052); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, #8e2b88, #ff0052); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, #8e2b88, #ff0052); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, #8e2b88 , #ff0052); /* Standard syntax */
+  	opacity: .5;
+  	z-index: 1;
+  	width: 100%;
+  	height: 100%;
+}
+
+.tint:hover{
+  	background: rgba(0,0,0,0.5)
+}
+
+.hamburger{
+	display: none;
+}
+
+.cross{
+	display: none;
+}
+
+@font-face {
+    font-family: futuraPTHeavy;
+    src: url(FuturaPTHeavy.otf) format('opentype');
+}
+
+@font-face {
+    font-family: futuraPTMedium;
+    src: url(FuturaPTMedium.otf) format('opentype');
+}
+@font-face {
+    font-family: futuraPTMediumOblique;
+    src: url(FuturaPTMediumOblique.otf) format('opentype');
+}
+
+@media screen and (max-width:1400px){  /* this is the breakpoint */
+	#forums, #videos{
+		display: none;
+	}
+
+	.menu li {
+		font-size:12pt;
+	}
+
+	.pic-title2{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width:1150px){  /* this is the breakpoint */
+	#reviews{
+		display: none;
+	}
+	.navicons{
+		width: 70%;
+	}
+	.pic-title{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width:1050px){  /* this is the breakpoint */
+	.navicons{
+		width: 75%;
+	}
+}
+
+@media screen and (max-width:960px){  /* this is the breakpoint */
+	.menu li {
+		padding: 0px 10px;
+	}
+}
+
+@media screen and (max-width:900px){  /* this is the breakpoint */
+	#news{
+		display: none;
+	}
+
+	.news-item1{
+		width:100%;
+	}
+
+	.news-item2{
+		width: 33.3%;
+	}
+
+	.news-item3{
+		width:33.3%;
+	}
+
+	.news-item4{
+		width:33.3%;
+	}
+
+	.news-item5{
+		width:33.3%;
+	}
+
+	.news-item6{
+		width:66.6%;
+	}
+
+	.news-item7{
+		width:50%;
+	}
+
+	.news-item8{
+		width:50%;
+	}
+
+	.menu, .icon, .subscribe{
+		display: none;
+	}
+
+	.navicons{
+		width: 100%
+	}
+	.hamburger{
+	  display: inline-block;
+	  background:none;
+	  position:absolute;
+	  top:15px;
+	  right:0;
+	  line-height:45px;
+	  padding:5px 15px 0px 15px;
+	  color:white;
+	  border:0;
+	  font-size:1.4em;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index:10000000000000;
+	}
+	.cross{
+	  background:none;
+	  position:absolute;
+	  top:0px;
+	  right:0;
+	  padding:15px 15px 0px 15px;
+	  color:white;
+	  border:0;
+	  font-size:3em;
+	  line-height:65px;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index:10000000000000;
+	}
+	.menu2{z-index:1000000; font-family:futuraPTHeavy, sans-serif; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+	.menu2 ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+	.menu2 li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+	.menu2 li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+	.menu2 ul li a { text-decoration:none;  margin: 0px; color:#666;}
+	.menu2 ul li a:hover {  color: #666; text-decoration:none;}
+	.menu2 a{text-decoration:none; color:#666;}
+	.menu2 a:hover{text-decoration:none; color:#666;}
+
+	.glyphicon-home{
+	  color:white; 
+	  font-size:1.5em; 
+	  margin-top:5px; 
+	  margin:0 auto;
+	}
+}
+
+@media screen and (max-width:875px){  /* this is the breakpoint */
+	.pic-title{
+		font-size: 18px;
+	}
+
+	.pic-author{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width:700px){  /* this is the breakpoint */
+	.news-item1{
+		width:100%;
+	}
+
+	.news-item2{
+		width: 50%;
+	}
+
+	.news-item3{
+		width:50%;
+	}
+
+	.news-item4{
+		width:50%;
+	}
+
+	.news-item5{
+		width:50%;
+	}
+
+	.news-item6{
+		width:100%;
+	}
+
+	.news-item7{
+		width:50%;
+	}
+
+	.news-item8{
+		width:50%;
+	}
+}
+
+@media screen and (max-width:460px){  /* this is the breakpoint */
+	.news-item1, .news-item2, .news-item3, .news-item4, .news-item5, .news-item6, .news-item7, .news-item8{
+		width:100%;
+	}
+}

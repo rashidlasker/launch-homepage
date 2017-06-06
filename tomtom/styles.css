@@ -1,0 +1,431 @@
+body, html, head h1{
+	margin: 0;
+	padding: 0;
+}
+/********************************NAVBAR************************************/
+.main-nav {
+	height: 80px;
+	position: relative; /* requires you to specify certain things like width, no longer going to be in the layout of the normal thingy */
+	width: 100%;
+	background-color: white;
+	z-index: 10;
+}
+
+.main-nav-placeholder {
+	height: 80px;
+	position: relative; /* requires you to specify certain things like width, no longer going to be in the layout of the normal thingy */
+	width: 100%;
+	background-color: white;
+	z-index: 1;
+}
+
+.navbar-fixed {
+  position: fixed;
+  top:0;
+}
+
+.logo{
+	width: 15%;
+	position: absolute;
+	left: 30px;
+	top:20px;
+	margin: 0;
+}
+
+.logoimg{
+	height: 40px;
+	margin: 0;
+}
+
+.menu{
+	margin: 0;
+	line-height: 0;
+	position: absolute;
+	top:25px;
+	left: 150px;
+}
+
+.menu ul{
+	list-style: none;
+	padding: 0;
+}
+
+.menu a{
+	color: white;
+}
+
+.menu a:hover{
+	color: black;
+}
+
+.menu li {
+	display: inline-block;
+	padding: 0px 20px;
+	text-align: center;
+	font-size:14pt;
+	font-family: futuraPTMedium, sans-serif;
+	color: #979696;
+}
+
+.menu p {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size:14pt;
+	font-family: futuraPTMedium, sans-serif;
+	color: #979696;
+}
+
+.menu li:hover {
+	display: inline-block;
+	padding: 0px 20px;
+	text-align: center;
+	font-size:14pt;
+	font-family: futuraPTMedium, sans-serif;
+	color: black;
+}
+
+.support{
+	margin: 0;
+	line-height: 0;
+	position: absolute;
+	padding: 39.5px 20px;
+	right: 50px;
+	background-color: #c6e6d9;
+}
+
+.support a{
+	color: white;
+	font-size:14pt;
+	font-family: futuraPTMedium, sans-serif;
+	text-decoration: none;
+}
+
+.support a:hover{
+	color: black;
+	font-size:14pt;
+	font-family: futuraPTMedium, sans-serif;
+	text-decoration: none;
+}
+
+.search{
+	margin: 0;
+	line-height: 0;
+	position: absolute;
+	padding: 15px 0px;
+	right: 0px;
+	background-color: #514f50;
+}
+
+.hamburger, .cross{
+	display: none;
+}
+
+/********************************SPLASH************************************/
+
+.splash-container{
+	/* background: url("img/ball.jpg") no-repeat center center; no repeat forces the img to fill the thingy */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	margin: 0 auto;
+	height: 130vh;
+	position:relative;
+	text-align: center;
+}
+
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 0;
+  width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+.splash-text{
+	top:20vh;
+	position:absolute;
+	left: 0;
+	right: 0;
+	color:white;
+	font-size: 100px;
+	font-family: futuraPTHeavy, sans-serif;
+
+}
+
+.squiggle-divider{
+	top:73vh;
+	position:absolute;
+	left: 0;
+	right: 0;
+}
+
+.squiggle-divider img{
+	width: 150px;
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.splash-text2{
+	top:75vh;
+	position:absolute;
+	left: 0;
+	right: 0;
+	font-size: 30px;
+	color: #c6e6d9; 
+	line-height: 1.5; 
+	letter-spacing: 4px;
+	font-family: futuraPTHeavy, sans-serif;
+}
+
+.tomicons {
+	top:83vh;
+	position:absolute;
+	left: 0;
+	right: 0;
+}
+
+.tomicons img{	
+	height:142px;
+	width:500px;
+}
+
+.fbicon {
+	top:15vh;
+	position:absolute;
+	right: 200px;
+	height:45px;
+	width:45px;
+}
+
+.fbicon img{	
+	height:45px;
+	width:45px;
+}
+
+.igicon {
+	top:15vh;
+	position:absolute;
+	right: 125px;
+	height:45px;
+	width:45px;
+}
+
+.igicon img{	
+	height:45px;
+	width:45px;
+}
+
+.twicon {
+	top:15vh;
+	position:absolute;
+	right: 50px;
+	height:45px;
+	width:45px;
+}
+
+.twicon img{	
+	height:45px;
+	width:45px;
+}
+
+/********************************SECTION 2************************************/
+
+.mission-container{
+	background: url("https://tomtomfest.com/content/uploads/2015/05/Mike-Mallory-wide_m.jpg") no-repeat center center; /* no repeat forces the img to fill the thingy */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	position:relative;
+	text-align: center;
+}
+
+.mission-text-container{
+	width: 40%;
+	position:absolute;
+	margin: 0 auto;
+	text-align: center;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.75);
+    padding-left:20px;
+    padding-right:20px;
+
+}
+
+.mission-text-container h1{
+	color: #751775;
+	font-size: 60px;
+	margin: 30px 0px 0px 0px;
+	text-align: center;
+	font-family: futuraPTHeavy, sans-serif;
+}
+
+.mission-text-container p{
+	color: #525151;
+	font-size: 20px;
+	margin: 10px 60px 30px 60px;
+	text-align: center;
+	font-family: futuraPTHeavy, sans-serif;
+}
+
+.button{
+	width:50%;
+	line-height: 0;
+	margin: 30px auto;
+	padding: 39.5px 20px;
+	background-color: #ec1a2e;
+}
+
+.button a{
+	color: white;
+	font-size:14pt;
+	font-family: futuraPTHeavy, sans-serif;
+	text-decoration: none;
+}
+
+.button:hover{
+	width:50%;
+	line-height: 0;
+	margin: 30px auto;
+	padding: 39.5px 20px;
+	background-color: #c31018;
+}
+@media screen and (max-width:1200px){
+	.menu li, .menu p, .support a {
+		font-size:12pt;
+	}
+}
+@media screen and (max-width:1000px){
+	.menu li, .menu p, .support a {
+		font-size:10pt;
+	}
+}
+@media screen and (max-width:900px){  /* this is the breakpoint */
+	#my-video, .support, .search, .menu{
+		display: none;
+	}
+
+	.splash-container{
+		height: 700px;
+		background: url("https://tomtomfest.com/content/uploads/2017/04/Paramount-Audience-2.jpg") no-repeat center center; /* no repeat forces the img to fill the thingy */
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.mission-container{
+		height: 700px;
+	}
+
+	.hamburger{
+	  display: inline-block;
+	  background:none;
+	  position:absolute;
+	  top:15px;
+	  right:0;
+	  line-height:45px;
+	  padding:5px 15px 0px 15px;
+	  color:#999;
+	  border:0;
+	  font-size:1.4em;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index:10000000000000;
+	}
+	.cross{
+	  background:none;
+	  position:absolute;
+	  top:0px;
+	  right:0;
+	  padding:7px 15px 0px 15px;
+	  color:#999;
+	  border:0;
+	  font-size:3em;
+	  line-height:65px;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index:10000000000000;
+	}
+	.menu2{z-index:1000000; font-family:futuraPTHeavy, sans-serif; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+	.menu2 ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+	.menu2 li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+	.menu2 li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+	.menu2 ul li a { text-decoration:none;  margin: 0px; color:#666;}
+	.menu2 ul li a:hover {  color: #666; text-decoration:none;}
+	.menu2 a{text-decoration:none; color:#666;}
+	.menu2 a:hover{text-decoration:none; color:#666;}
+
+	.glyphicon-home{
+	  color:white; 
+	  font-size:1.5em; 
+	  margin-top:5px; 
+	  margin:0 auto;
+	}
+
+	.mission-text-container{
+		width: 80%;
+	}
+
+	.splash-text{
+		top:60px;
+		font-size: 70px;
+	}
+
+	.squiggle-divider{
+		top:400px;
+	}
+
+	.splash-text2{
+		top:410px;
+		font-size: 30px;
+	}
+
+	.tomicons {
+		top:540px;
+	}
+
+	.tomicons img{	
+		height:71px;
+		width:250px;
+	}
+
+	.igicon, .twicon, .fbicon {
+		top:50px;
+	}
+
+	.mission-text-container h1{
+		font-size: 48px;
+	}
+	
+	.button{
+		width:80%;
+		line-height: 0;
+		margin: 30px auto;
+		padding: 39.5px 20px;
+		background-color: #ec1a2e;
+	}
+}
+
+@font-face {
+    font-family: futuraPTHeavy;
+    src: url(FuturaPTHeavy.otf) format('opentype');
+}
+
+@font-face {
+    font-family: futuraPTMedium;
+    src: url(FuturaPTMedium.otf) format('opentype');
+}

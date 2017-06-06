@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	/*overflow: hidden;*/
+}
+.title {
+	margin-top: 250px;
+	margin-left: 10px;
+	font-weight: bold;
+	width: 600px;
+	color: #FFF;
+	font-size: 110px;
+	line-height: 80px;
+}
+.offerings {
+	font-size: 130px;
+	mix-blend-mode: color-burn;
+	color: #00843f;
+}
+.info-container {
+	margin-top: 40px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 700px;
+}
+.column {
+	display: inline-block;
+	width: 46%;
+	height: 100%;
+	vertical-align: top;
+	padding-top: 0px;
+}
+.hd {
+	font-weight: bold;
+	font-size: 18px;
+	color: #00843f;
+	transition: .5s;
+}
+.hd:hover {
+	font-size: 20px;
+	color: #4b4;
+	transition: .5s;
+}
+.loc {
+	color: #00843f;
+	font-size: 17px;
+}
+.rest{
+	font-family: 'Raleway', sans-serif;
+}
+.two {
+	padding-left: 15px;
+	text-align: left;
+
+}
+.one {
+	padding-right: 15px;
+	text-align: right;
+	border-right: 2px dashed #4b4;
+}
+.footer {
+	text-align: right;
+	color: #00843f;
+	width: 93%;
+	margin-top: 25px;
+	display:block;
+}
+.circle {
+	z-index: -100;
+	position: absolute;
+	width: 800px;
+	height: 800px;
+	top: -100px;
+	left: -200px;
+	border-radius: 50%;
+	background-color: #4b4;
+}
+p {
+	font-size: 14px;
+	line-height: 20px;
+	color: #00843f;
+	mix-blend-mode: color-burn;
+}
+a {
+	text-decoration: none;
+	color: #FFF;
+	transition: .5s;
+}
+a:hover {
+	font-size: 120px;
+	transition: .5s;
+}
+
+@media screen and (max-width: 1400px) {
+	.column {
+		display: block;
+		position: relative;
+		right: -150px;
+		width: 70%;
+		padding-bottom: 20px;
+	}
+	.two {
+		text-align: right;
+		border-right: 2px dashed #4b4;
+		border-left: none;
+		padding-left: 0px;
+		padding-right: 15px;
+	}
+	.one {
+		border-right: 2px dashed #4b4;
+	}
+	.title {
+		width: 320px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.footer {
+		margin-left: 30px;
+		margin-top: 60px;
+		width: 90%;
+	}
+	.circle {
+		transition: 2s;
+		left: -450px;
+	}
+	.title {
+		font-size: 50px;
+		line-height: 35px;
+	}
+	.offerings {
+		font-size: 65px;
+	}
+	a:hover {
+		font-size: 60px;
+		transition: .5s;
+	}
+}
+@media screen and (max-width: 900px) {
+	.info-container {
+		display: block;
+		width: 100%;
+		margin-top: 500px;
+		margin-right: 10px;
+	}
+}
+::selection {
+	background: #0f0;
+}
+::-moz-selection; {
+	background: #0f0;
+}

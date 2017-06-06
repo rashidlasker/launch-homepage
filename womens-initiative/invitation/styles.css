@@ -1,0 +1,272 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.container{
+	height: 100vh;
+	position: relative;
+}
+
+.title{
+	position: absolute;
+	bottom: 50px;
+	left: 70px;
+	mix-blend-mode: color-dodge;
+	z-index: 1;
+}
+
+.title h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 130pt;
+	margin: 0;
+	padding: 0;
+	color: #00843f;
+}
+
+.breathe{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 30vh;
+	margin: auto;
+	mix-blend-mode: color-dodge;
+	z-index: 1;
+	text-align: center;
+	display: none;
+}
+
+.breathe h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 150pt;
+	margin: 0;
+	padding: 0;
+	color: #00843f;
+}
+
+.breathe2{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 30vh;
+	margin: auto;
+	mix-blend-mode: color-dodge;
+	z-index: 1;
+	text-align: center;
+	display: none;
+}
+
+.breathe2 h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 150pt;
+	margin: 0;
+	padding: 0;
+	color: #00843f;
+}
+
+.edge h1{
+	color: black;
+}
+
+.bottom-circle, .bottom-mobile{
+	position: absolute;
+	bottom: -400px;
+	left: -150px;
+	width: 800px;
+	height: 800px;
+	background: #00843f;
+	-moz-border-radius: 500px;
+	-webkit-border-radius: 500px;
+	border-radius: 500px;
+}
+
+.bottom-mobile{
+	display: none;
+}
+
+.text{
+	position: absolute;
+	top:30px;
+	right: 50px;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	color: white;
+	z-index: 1;
+}
+
+.top-circle, .top-mobile{
+	position: absolute;
+	top: -430px;
+	right: -350px;
+	width: 700px;
+	height: 700px;
+	background: #00843f;
+	-moz-border-radius: 400px;
+	-webkit-border-radius: 400px;
+	border-radius: 400px;
+}
+
+.top-mobile{
+	display: none;
+}
+
+.crop{
+	position: absolute;
+	bottom: 70px;
+	left:1143px;
+	width: 27px;
+	overflow: hidden;
+}
+
+.crop img{
+	width: 100px;	
+}
+
+@media screen and (max-width:1230px){  /* this is the breakpoint */
+	.title h1{
+		font-size: 100pt;
+	}
+
+	.breathe, .breathe2{
+		top: 40vh;
+	}
+
+	.breathe h1{
+		font-size: 120pt;
+	}
+
+	.breathe2 h1{
+		font-size: 120pt;
+	}
+
+	.crop{
+		bottom: 70px;
+		left:900px;
+		width: 27px;
+	}
+}
+
+@media screen and (max-width:930px){  /* this is the breakpoint */
+	.title{
+		bottom: 25px;
+		left: 35px;
+	}
+
+	.title h1{
+		font-size: 80pt;
+	}
+
+	.breathe h1{
+		font-size: 100pt;
+	}
+
+	.breathe2 h1{
+		font-size: 100pt;
+	}
+
+	.bottom-circle, .top-circle{
+		display: none;
+	}
+
+	.bottom-mobile, .top-mobile{
+		display: block;
+		width: 800px;
+		height: 800px;
+	}
+
+	.text{
+		top:20px;
+		right: 40px;
+	}
+
+	.crop{
+		display: none;
+	}
+}
+
+@media screen and (max-width:710px){  /* this is the breakpoint */
+	
+	.title{
+		bottom: 15px;
+		left: 25px;
+	}
+
+	.title h1{
+		font-size: 60pt;
+	}
+
+	.breathe h1{
+		font-size: 80pt;
+	}
+
+	.breathe2 h1{
+		font-size: 80pt;
+	}
+
+	.bottom-mobile, .top-mobile{
+		width: 700px;
+		height: 700px;
+	}
+
+	.top-mobile{
+		top: -400px;
+		right: -250px;
+	}
+
+	.text{
+		top:20px;
+		right: 40px;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width:500px){  /* this is the breakpoint */
+
+	.breathe, .breathe2{
+		top: 45vh;
+	}
+
+	.breathe h1{
+		font-size: 40pt;
+	}
+
+	.breathe2 h1{
+		font-size: 40pt;
+	}
+
+	.bottom-mobile, .top-mobile{
+		width: 700px;
+		height: 700px;
+	}
+
+	.top-mobile{
+		top: -400px;
+		right: -250px;
+	}
+
+	.text{
+		top:20px;
+		right: 40px;
+		font-size: 15px;
+	}
+
+	.title{
+		bottom: 50px;
+		left: 25px;
+	}
+}
+
+@media screen and (max-width:350px){  /* this is the breakpoint */
+
+	.top-mobile{
+		top: -490px;
+		right: -250px;
+	}
+
+	.text{
+		top:10px;
+		right: 30px;
+		font-size: 12px;
+	}
+}

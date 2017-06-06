@@ -1,0 +1,33 @@
+.logo{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 50px; 
+	width: 0%;
+}
+
+.line{
+	width: 150px;
+ 	height: 800px;
+  	border-radius: 200px;
+  	display: block;
+  	position: absolute;  
+  	mix-blend-mode: multiply;
+}
+
+.blue {
+  transform: rotate(75deg) translateX(-170px);
+  background: #70CADB;
+}
+.red {
+  transform: rotate(75deg) translateX(170px);
+  background: #E01765;
+  opacity: 1;
+}
+.green {
+  transform: rotate(165deg) translateX(170px);
+  background: #3EB890;
+}
+.yellow {
+  transform: rotate(165deg) translateX(-170px);
+  background: #E8A723;
+}
