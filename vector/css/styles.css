@@ -1,0 +1,808 @@
+@font-face {
+	font-family: bluprint;
+	src: url('../BluprintDEMO.otf');
+}
+
+body {
+	background: #4B79A1;
+    background: -webkit-radial-gradient(#345673 , #0e1c27);
+    background: radial-gradient( #345673 , #0e1c27);
+    color: white;
+    font-family: 'muli';
+    font-weight: 400;
+    margin: 0px;
+ 	padding: 0px;
+    display: block;
+}
+
+section{
+	width: 100%;
+}
+
+
+h2, h3 {
+	margin: 2vh 0px;
+	font-family: 'arvo';
+	font-weight: 700;
+	font-size: 40px;
+	text-shadow: 2px 2px 5px #1B3042;
+}
+
+h3 {
+	font-size: 30px;
+	margin-top: 60px;
+}
+
+.container h1{
+	text-align: center;
+}
+
+.container {
+	margin: 0px auto;
+	padding: 50px 70px;
+}
+
+.invertsvg {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+/****************NAVBAR****************/
+
+#logo{
+	width: 50px;
+	margin: 10px 0px 10px 0px;
+}
+
+.navbar-nav li{
+	margin-top: 10px; 
+}
+
+.navbar{
+	border-radius: 0px;
+	margin-bottom: 0;
+	background-color: #152E41;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.activenav {
+    color: #FFF !important;
+}
+/****************TITLE****************/
+
+.one{
+	height: 100%;
+	width:100%;
+	background-image: url('../images/blueprint-2.jpg');
+	background-repeat: repeat;
+	text-align: center;
+	font-family: 'bluprint';
+	color: white;	
+	filter: brightness(90%);
+}
+
+#vector {	
+	font-size: 50vmin;
+	margin-bottom: 0px !important;
+    -webkit-margin-before: none;
+    -webkit-margin-after: none;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.myButton {
+	background-color:white;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: 'Muli';
+	font-weight: 800;
+	font-size: 3vmin;
+	padding: 7px 25px;
+	transition: .5s;
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	text-decoration: none;
+}
+
+.myButton:hover {
+	margin-top: 10px; 
+	margin-bottom: 30px; 
+	transition: margin .5s;
+	text-decoration: none;
+	color: #FCB956;
+	text-decoration: none;
+}
+.myButton:active {
+	background-color:#bab1ba;
+	text-decoration: none;
+}
+
+.myButton:visited{
+	text-decoration: none;
+}
+
+.myButton:focus{
+	text-decoration: none;
+}
+
+/*.container-button {
+	position: absolute;
+	top: 63vh;
+	display: inline-block;
+	width: 40%;
+	left: 30%;
+	height: 3vmax;
+
+}
+*/
+/****************THE LOWDOWN****************/
+
+
+.two {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.software-captions, .skills-captions, .curriculum-captions, .perks-captions, .two h3{
+	transition: 0.4s;
+}
+
+.col-md-2.icon {
+	padding: 35px 40px 25px 40px;
+	box-sizing: border-box;
+	fill: #78ABD8;
+  	stroke: #78ABD8;
+
+}
+
+path {
+  fill: #78ABD8;
+  stroke: #78ABD8;
+
+}
+
+#topsoft{
+	margin-top: 30px; 
+}
+
+.software-icons{
+	text-align: center;
+}
+
+.iconset{
+	width: 15%;
+	display: inline-block;
+	margin-left: 3%; 
+	margin-right: 3%; 
+
+}
+
+.iconset2, .iconset3, .iconset4{
+	width: 10%;
+	display: inline-block;
+	margin-left: 2%; 
+	margin-right: 2%;
+}
+
+.software-captions, .skills-captions, .curriculum-captions, .perks-captions{
+	position: relative;
+	display: block;
+	margin-top: 20px; 
+	margin-bottom:20px;
+}
+
+.curriculum-captions, .perks-captions{
+	margin-bottom:60px;
+}
+
+.perks-captions{
+	margin-bottom:90px;
+}
+
+.sc1, .sc2, .sc3, .sc4, .sc5, .sc6, .sc7, .sc8, .sc9, .sc10, .sc11, .sc12, .sc13, .sc14{
+	position: absolute;
+	text-align: center;
+	display: none;
+	top:0;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	font-size: 20px;
+}
+
+.cap{
+	margin-bottom:0px !important;
+}
+
+/*.pleasework{
+	position: relative;
+}
+
+.housemenu {
+	position: absolute;
+	background-color: rgba(0,0,0,0.9);
+	top: 0;
+	left: 0;
+	display: none;
+	padding: 30px 10px;
+	z-index: 1;
+	height: 100%;
+	text-align: center;
+	font-size: 17px;
+	word-wrap: break-word;
+}
+
+.perks-container {
+	z-index: 0;
+}*/
+/****************DETAILED INFORMATION****************/
+
+#detailed-information {
+	width: 100%;
+	background-color: #0e1c27;
+	height: 100%;
+}
+
+.lightblue {
+	text-shadow: none;
+}
+
+
+.three h2{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.img-info{
+	height: 575px;
+	background: url("../images/info.jpg") no-repeat center center;
+	-webkit-background-size: auto 95%;
+    -moz-background-size: auto 95%;
+    -o-background-size: auto 95%;
+    background-size:auto 95%;
+}
+
+.row-item h3{
+	margin-top: 35px;
+}
+
+.row-item p{
+	margin-top: 40px;
+	font-size: 20px;
+	text-align: right;
+}
+
+.info-list {
+	padding-left: 70px;
+}
+
+table {
+	padding: 15px;
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 100%;
+	margin-left: 30px;
+	font-size: 24px;
+	vertical-align: top;
+	height: auto;
+}
+
+table, th, td {
+/*	border: 1px solid white;
+*/	padding: 25px;
+	padding-left: 25px;
+	vertical-align: top;
+}
+
+.specialtrnopadding {
+	padding-top: 15px;
+}
+
+
+/****************PORTFOLIO****************/
+
+.four h2{
+	text-align: center;
+}
+
+.item img{
+	display: inline-block !important;
+}
+
+#myCarousel{
+	text-align:center;
+	margin: 0 auto;
+	width: 70%
+}
+/****************TESTIMONIALS****************/
+
+#testimonial{
+	width: 100%;
+	background-color: #000;
+	padding: 20px 0px; 
+}
+
+.five img{
+	padding-left:0;
+}
+
+.testimonialtext h4{
+	margin-top: 50px; 
+	margin-bottom: 40px;
+}
+
+.testimonialtext h2{
+}
+
+/****************PROJECT LEADS****************/
+#leads{
+	padding: 20px 0px 40px 0px; 
+}
+
+.six h2{
+	margin-bottom: 50px;
+	text-align:center; 
+}
+
+.instructor1 h1, .ta1 h1{
+	text-align:left;
+}
+
+img#toplead {
+	margin-bottom: 50px;
+	padding-right: 0;
+}
+
+img#bottomlead {
+	padding-left: 0;
+}
+
+.button{/*
+	border: 2px solid white;
+	display: inline-block;*/
+	padding: 10px 30px 10px 30px;
+	text-align: center;/*
+	text-decoration: none;
+	color: white;*/
+}
+/*.button:hover{
+	background-color: white;
+	color: #345673;
+}*/
+
+.headshot {
+	margin-bottom: 0px;
+}
+.instructor2{
+	display: none;
+}
+
+.leadtext{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.centerbuttons{
+	margin-top: 20px;
+}
+
+.ta1 .centerbuttons{
+	text-align: right;
+}
+/****************HC STUFF****************/
+#hackcville{
+	width: 100%;
+	background-color: #FFF;
+	text-align: center;
+	padding-bottom: 20px; 
+}
+
+#hackcville h1{
+	color: black;
+	font-size: 50pt;
+	margin-bottom: 20px;
+	transition: .5s;
+}
+
+.holder-1{
+	color: steelblue;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/****************CONTACT****************/
+.eight h1{
+	margin-bottom: 0px; 
+}
+
+.row{
+	padding-top: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+form{
+	text-align: center;
+}
+
+form img{
+	width: 100%;
+	padding-top:50px; 
+	padding-left: 0 !important;
+}
+.form-group{
+	padding-right: 0px;
+	padding-left: 0px; 
+	padding-bottom: 0 !important;
+	min-height: 1px !important;
+}
+.subscribe{
+	/*display: inline-block;
+	float: none;
+	margin: 0;*/
+	font-size: 20px;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    width: 100% !important;
+
+}
+
+#mc_embed_signup input{
+	border:0;
+}
+
+.response{
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+	width: 100% !important; 
+}
+
+/*************************************/
+/************* 1200 PX ***************/
+/*************************************/
+
+@media screen and (max-width:1200px){
+	/****************NAVBAR****************/
+	/****************TITLE****************/
+	/****************INFO****************/
+	/****************INFO (DETAILED)****************/
+	table, td, th {
+		font-size: 20px !important;
+		vertical-align: top;
+	}
+	/****************PORTFOLIO****************/
+	/****************TESTIMONIALS****************/
+	.testimonialtext h4{
+		margin-top: 0px; 
+		margin-bottom: 40px;
+	}
+
+	/****************PROJECT LEADS****************/
+	/****************HC STUFF****************/
+	/****************CONTACT****************/
+	.eight h1{
+		font-size: 25px; 
+	}
+}
+
+/*************************************/
+/************* 1000 PX ***************/
+/*************************************/
+
+
+@media screen and (max-width:1000px){
+
+	.container {
+		padding: 50px 15px;
+	}
+
+	/****************NAVBAR****************/
+	.navbar{
+		padding-right: 0px;
+		padding-left: 20px;
+	}
+	/****************TITLE****************/
+
+	/****************INFO****************/
+
+/*	.software-icons{
+		width: 100%;
+	}
+
+	.membershipperks, .perksicons, .col-md-2.icon{
+		width: 40%;
+		display: inline-block;
+	
+	}*/
+	.curriculum-captions{
+		margin-bottom:150px;
+	}
+
+	.perks-captions{
+		margin-bottom:120px;
+	}
+
+	/****************INFO (DETAILED)****************/
+	.three h2{
+		margin-bottom: 20px; 
+	}
+	.img-info{
+		height: 100px;
+		width: 100%;
+		background: url("../images/info.jpg") no-repeat center center;
+		-webkit-background-size: 100% auto;
+	    -moz-background-size: 100% auto;
+	    -o-background-size: 100% auto;
+	    background-size:100% auto;
+	}
+	.row-item h3{
+		margin-top: 20px;
+		font-size: 25px;
+	}
+
+	.row-item p{
+		margin-top: 5px;
+		font-size: 15px;
+	}
+
+	#buffer {
+		height: 50px;
+	}
+
+	table{
+		margin-left: 0px;
+	}
+	.thisismytable{
+		padding: 0;
+	}
+
+	td{
+		padding: 0;
+		padding-bottom: 20px;
+	}
+	td:first-child{
+		padding-right: 20px;
+	}
+	/****************PORTFOLIO****************/
+	/****************TESTIMONIALS****************/
+	.five img{
+		width: 50%;
+		display: inline-block;
+	}
+	.testimonialtext h2, .testimonialtext p, .five{
+		text-align: center;
+	}
+
+
+	.five img{
+		padding-left:15px;
+	}
+
+	.testimonialtext h4{
+		margin-top: 10px; 
+		margin-bottom: 10px;
+	}
+
+	.testimonialtext h2{
+		font-size:30px;
+	}
+
+	/****************PROJECT LEADS****************/
+	.instructor1{
+		display: none;
+	}
+	.instructor2{
+		display: block;
+		margin-bottom: 70px; 
+	}
+	.six img{
+		width: 50%;
+		margin:0 auto;
+	}
+
+	.centerbuttons{
+		text-align:center;
+	}
+
+	.ta1 .centerbuttons{
+		text-align: center;
+	}
+	img#toplead {
+		margin-bottom: 0;
+		padding-right: 15px;
+	}
+
+	img#bottomlead {
+		padding-left: 15px;
+	}
+
+	.leadtext h1{
+		text-align: center;
+	}
+	/****************HC STUFF****************/
+	#hackcville h1{
+		font-size: 30pt;
+	}
+	iframe{
+		width: 100%;
+	}
+	/****************CONTACT****************/
+	form img{
+		width: 50%;
+		padding-top:0px;
+	}
+
+	#mc_embed_signup form {
+		text-align: center;
+	}
+
+	.row {
+	    margin-right: 0px;
+	    margin-left: 0px;
+	}
+
+	.form-group{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.clear{
+		padding-left: 15px !important; 
+		padding-right: 30px; 
+	}
+}
+
+/*************************************/
+/************** 868 PX ***************/
+/*************************************/
+
+
+@media screen and (max-width:868px){
+	/****************NAVBAR****************/
+	.nav a{
+		font-size: 12px;
+	}
+	/****************TITLE****************/
+	/****************INFO****************/
+	.skills-captions{
+		margin-bottom:90px;
+	}
+	.curriculum-captions{
+		margin-bottom:170px;
+	}
+	/****************INFO (DETAILED)****************/
+	/****************PORTFOLIO****************/
+	#myCarousel{
+		width: 100%
+	}
+	/****************TESTIMONIALS****************/
+	/****************PROJECT LEADS****************/
+	/****************HC STUFF****************/
+	/****************CONTACT****************/
+}
+
+/*************************************/
+/************** 635 PX ***************/
+/*************************************/
+
+
+@media screen and (max-width:635px){
+	/****************NAVBAR****************/
+	/****************TITLE****************/
+	/****************INFO****************/
+	.software-captions{
+		margin-bottom:80px;
+	}
+	/****************INFO (DETAILED)****************/
+	/****************PORTFOLIO****************/
+	/****************TESTIMONIALS****************/
+	/****************PROJECT LEADS****************/
+	/****************HC STUFF****************/
+	/****************CONTACT****************/
+}
+
+
+/*************************************/
+/************** 600 PX ***************/
+/*************************************/
+
+
+@media screen and (max-width:600px){
+	/****************NAVBAR****************/
+	.nav a{
+		font-size: 14px;
+	}
+	/****************TITLE****************/
+	/****************INFO****************/
+	.iconset, .iconset3{
+		width: 20%;
+		display: inline-block;
+		margin-left: 5%; 
+		margin-right: 5%; 
+
+	}
+
+	.iconset2, .iconset4{
+		width: 15%;
+		display: inline-block;
+		margin-left: 5%; 
+		margin-right: 5%;
+	}
+
+	.sc1, .sc2, .sc3, .sc4, .sc5, .sc6, .sc7, .sc8, .sc9, .sc10, .sc11, .sc12, .sc13, .sc14{
+		font-size: 15px;
+	}
+	/****************INFO (DETAILED)****************/
+
+	.img-info{
+		display: none;
+	}
+
+	.three h2{
+		border-bottom: 2px solid white;
+	}
+
+	td:first-child{
+		padding-right: 60px;
+	}
+	/****************PORTFOLIO****************/
+	/****************TESTIMONIALS****************/
+	/****************PROJECT LEADS****************/
+	
+	/****************HC STUFF****************/
+	.seven h1{
+		font-size: 20px;
+	}
+	/****************CONTACT****************/
+
+	.eight h1{
+		font-size: 25px; 
+	}
+
+}
+
+
+
+@media screen and (max-width:402px){
+	/****************NAVBAR****************/
+	/****************TITLE****************/
+/*	.one {
+		height: 300px !important;
+	}
+*/
+	#vector {
+		font-size: 150px !important;
+		margin-top: 50px;
+	}
+
+	/****************INFO****************/
+	.perks-captions {
+	    margin-bottom: 150px;
+	}
+	/****************INFO (DETAILED)****************/
+	/****************PORTFOLIO****************/
+	/****************TESTIMONIALS****************/
+	/****************PROJECT LEADS****************/
+	/****************HC STUFF****************/
+	/****************CONTACT****************/
+}
+
+
+
+
