@@ -102,7 +102,7 @@ body{
 }
 
 .title{
-    font-family: 'Sigmar One', cursive;
+    font-family: 'Raleway', sans-serif;
     background-color: #FFF;
     overflow: hidden;
     height: 100vh;
@@ -170,7 +170,7 @@ canvas{
     font-size: 30pt;
     text-align: center;
     color: white;
-    font-family: 'Sigmar One', cursive;
+    font-family: 'Raleway', sans-serif;
 
 }
 .link1, .link2, .link3, .link4, .link5, .link6, .link7, .link8, .link9, .link10{
@@ -272,7 +272,7 @@ canvas{
     text-align: center;
     color: #00BFF2;
     font-size: 30pt;
-    font-family: 'Sigmar One', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 .social ul{
