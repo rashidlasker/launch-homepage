@@ -393,12 +393,14 @@ canvas{
 
 @media only screen and (max-width: 1000px) {
     /* Style adjustments for viewports that meet the condition */
-    .link1, .link2, .link3, .link4, .link5, .link6, .link7, .link8, .link9, .link10{
+    .link1, .link2, .link3, .link4, .link5, .link6, .link7, .link8, .link9, .link10, .link11{
         width:47%;
     }
+/*
     .link11{
         width:97%;
     }
+*/
 }
 
 @media only screen and (max-width: 600px) {
